@@ -3,20 +3,18 @@
     <nav></nav>
     <b-container>
       <img alt="Vue logo" src="./assets/logo.png">
-      <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-      <props msg="Application With Vue-Bootstrap"/>
+      <props msg="My first application With Vue-Bootstrap"/>
     </b-container>
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+
 import props from './components/props.vue'
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld
     props
   }
 }

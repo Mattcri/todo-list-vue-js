@@ -12,7 +12,6 @@
             <b-button variant="danger"  @click="clearList" class="mx-4">Limpiar</b-button>
          </b-col>
          <b-col sm="12" class="my-4">
-            <!-- mensaje: {{newTask}} -->
             <childProps :array="arrayList" @deleteItem="remove($event)" />
          </b-col>
       </b-row>
